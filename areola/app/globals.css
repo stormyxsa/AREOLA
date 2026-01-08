@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--accent);
+  --color-dash-bg: var(--bg);
+  --color-card-bg: var(--card);
+  --color-card-border: var(--border);
+  --color-text-main: var(--text);
+  --color-text-muted: var(--text-dim);
+}
+
+:root {
+  /* Paper Light Mode - Your exact hex codes */
+  --bg: #fcfcfd;
+  --card: #ffffff;
+  --border: rgba(0, 0, 0, 0.06);
+  --accent: #000000;
+  --text: #111111;
+  --text-dim: #666666;
+}
+
+[data-theme="dark"] {
+  --bg: #0d0d0d;
+  --card: #171717;
+  --border: #262626;
+  --accent: #ffffff;
+  --text: #ffffff;
+  --text-dim: #a3a3a3;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.glass-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(0, 0, 0, 0.2); /* Subtle lift on hover */
+  transform: translateY(-2px);
+}
+
+
+
+#nextjs-portal, 
+[data-nextjs-toast-wrapper],
+nextjs-portal {
+  display: none !important;
+}
