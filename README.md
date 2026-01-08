@@ -19,17 +19,16 @@ Note: The full dataset (creditcard.csv) is excluded due to file size limits. Ple
 Bash
 git clone https://github.com/your-username/areola-forensic.git
 2.	Install Dependencies:
-Bash
 npm install
 # and for the backend
 pip install -r requirements.txt
-3.	Run the Command Center:
-Bash
-# Start the frontend
+3.	Run the UI:
+# Start the frontend in
+cd areola
 npm run dev
 
 # Start the FastAPI server (in a separate terminal)
-uvicorn main:app --reload
+python api.py
 📂 Project Structure
 •	/app: Next.js layouts and page routes (The "Intelligence" layer)
 •	/components: Custom forensic UI modules (Sidebar, Audit Tables, Stat Cards)
