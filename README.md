@@ -17,7 +17,7 @@ ________________________________________
 Note: The full dataset (creditcard.csv) is excluded due to file size limits. Please place your own  dataset in the root directory before running the model. or you can get the dataset from kaggle
 1.	Clone the repository:
 Bash
-git clone https://github.com/your-username/areola-forensic.git
+git clone https://github.com/your-username/AREOLA.git
 2.	Install Dependencies:
 npm install
 # and for the backend
