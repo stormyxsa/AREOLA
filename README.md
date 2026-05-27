@@ -1,6 +1,6 @@
 AREOLA | PROTOTYPE
-Advanced Fraud Analysis Model & Command Center
-AREOLA is a high-performance forensic auditing suite designed to detect financial anomalies, transaction artifacts, and exposure risks in large-scale datasets. Built with a minimalist, high-contrast interface, it provides a "Command Center" experience for deep-dive financial investigations.
+Advanced Fraud Analysis Model
+AREOLA is a high-performance forensic auditing suite designed to detect financial anomalies, transaction artifacts, and exposure risks in large-scale datasets. Built with a minimalist, high-contrast interface, 
 ________________________________________
 ⚡ Key Features
 •	Real-Time Forensic Sweep: Instant analysis of transaction signatures to identify high-risk anomalies.
